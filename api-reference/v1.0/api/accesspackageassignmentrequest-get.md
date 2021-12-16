@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /identityGovernance/entitlementManagement/assignmentRequests/{accessPackageAssignmentRequestId}
+GET /identityGovernance/entitlementManagement/accessPackageassignmentRequests/{accessPackageAssignmentRequestId}
 ```
 
 ## Optional query parameters
@@ -61,7 +61,7 @@ If successful, this method returns a `200 OK` response code and the requested [a
 }
 -->
 ``` http
-GET https://graph.microsoft.com/v1.0/identityGovernance/entitlementManagement/assignmentRequests/{accessPackageAssignmentRequestId}
+GET https://graph.microsoft.com/v1.0/identityGovernance/entitlementManagement/accessPackageassignmentRequests/{accessPackageAssignmentRequestId}
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-accesspackageassignmentrequest-csharp-snippets.md)]
